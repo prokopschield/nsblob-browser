@@ -1,0 +1,22 @@
+{
+	"name": "nsblob-browser",
+	"description": "nsblob for the browser",
+	"version": "0.2.14",
+	"main": "lib/index.js",
+	"bin": {
+		"nsblob-browser": "lib/cli.js"
+	},
+	"author": "Prokop Schield",
+	"dependencies": {
+		"fix-buffer-in-browser": "^0.1.1",
+		"nsblob": "^0.2.15"
+	},
+	"devDependencies": {
+		"@types/node": ">=16",
+		"browserify": "^17.0.0",
+		"minify": "^9.1.0"
+	},
+	"keywords": [],
+	"license": "GPL-3.0-or-later",
+	"types": "./lib/index.d.ts"
+}
