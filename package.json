@@ -1,7 +1,7 @@
 {
 	"name": "nsblob-browser",
 	"description": "nsblob for the browser",
-	"version": "0.2.14",
+	"version": "0.2.15",
 	"main": "lib/index.js",
 	"bin": {
 		"nsblob-browser": "lib/cli.js"
